@@ -136,3 +136,27 @@ font-size: 700%;
   
 } 
 
+div .icons ul li  {
+  margin: 4%;
+  padding: 10px 
+
+}
+.icons ul li i {
+  color: rgb(46, 43, 43);
+  justify-content: center;
+  text-align: center;
+}
+
+.icons ul li {
+  list-style: none;
+  display: inline-block;    
+}
+
+
+.icons ul li i:hover {
+ color: rgba(134, 210, 245, 1);
+}
+.icon-line {
+ background: rgb(107, 95, 95,0.5);
+
+}
