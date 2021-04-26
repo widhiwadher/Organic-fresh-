@@ -69,7 +69,7 @@ font-size: 700%;
 }
 
 .nav-bg{
-  background: white;
+  background: white!important;
 }
 
 .overlay{
