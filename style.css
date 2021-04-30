@@ -6,27 +6,28 @@
  
 }
 
-.row-fluid:first-child {
+/* #fluid {
  background-image:url("img/grapes\ 22\ .jpg"); 
  background-repeat: no-repeat;
  background-size:cover;
  background-position:center;
- height: 800px; 
-}
+ height: 700px; 
+ z-index: 2;
+} */
 
 .row-fluid2{
- 
  height: 800px; 
  margin: auto;
 }
 
 .logo-text{
   font-family:'Great Vibes', sans-serif;
-  color: white;
+  color: white!important;
   letter-spacing: 2px;
-  font-size: 40px;
+  font-size: 40px!important;
   text-decoration: none;
 }
+
 
 
 .bg {
@@ -39,11 +40,13 @@ color: white!important;
 
 .main-text {
   margin-top: 10%!important;
-  width: 45%;
+  width: 43%;
   text-align: center;
   justify-content: center;
-  z-index: 10;
+  z-index: 100;
   position: absolute;
+  margin: auto;
+  
  }
 
 .main-text h3 {
@@ -56,15 +59,20 @@ color: white!important;
   justify-content: center;
   text-align: center;
   letter-spacing: 1px;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
-p.font { 
+.font { 
 font-family:'Great Vibes', sans-serif;
 letter-spacing: 2px;
 font-size: 700%;
 }
 
+.font2 { 
+  font-family:'Great Vibes', sans-serif;
+  letter-spacing: 2px;
+  font-size: 400%;
+  }
 
 .about-font {
   font-size: 80%;
@@ -79,8 +87,7 @@ font-size: 700%;
  top: 0;
  left: 0;
  width: 100%;
- height: 100%;
- background: rgba(239, 255, 239, 0.5); 
+ background: rgba(239, 255, 239, 0.7); 
  mix-blend-mode: overlay;
 }
 
@@ -94,7 +101,7 @@ font-size: 700%;
    
  }
  .why-text {
-  margin-top: 5%!important;
+  margin-top: 3%!important;
   width: 90%;
   text-align: center;
   justify-content: center;
@@ -150,8 +157,9 @@ div .icons ul li  {
   padding: 10px 
 
 }
+
 .icons ul li i {
-  color: rgb(105, 101, 101);
+  color: rgb(211, 202, 202);
   justify-content: center;
   text-align: center;
 }
@@ -161,11 +169,56 @@ div .icons ul li  {
   display: inline-block;    
 }
 
-
 .icons ul li i:hover {
  color: white;
 }
+
 .icon-line {
- background:#592B3D!important;
+ background:#804158!important;
  color: white!important;
+
+}
+
+.vision-text {
+ background: linear-gradient(to bottom, #F0EADC 0%, #BEC5C1 100%); 
+}
+
+.no-padding {
+  padding-right:0!important;
+  padding-left:0!important;
+}
+
+/* ---- products--css----- */
+.hold-img {
+  padding: 7px;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  align-items: center;
+  position: relative;
+  background: rgba(156, 37, 37, 0.096);
+  
+}
+
+.hold-img:hover {
+  box-shadow: 3px 5px 7px 3px rgba(179, 93, 133, 0.979);
+  transition: box-shadow .3s;
+}
+
+.pro-text{
+  font-family:'Great Vibes', sans-serif;
+  color: rgb(77, 73, 73)!important;
+  letter-spacing: 2px;
+  font-size: 30px!important;
+  text-decoration: none;
+  text-align: center;
+}
+
+.box {
+  min-height:50vh;
+  width: 35%!important;
+  background: #517559;
+  display:flex;
+  margin-left: -600px;
+  padding: 50px;
 }
