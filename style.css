@@ -31,11 +31,11 @@
 
 
 .bg {
-   color: white!important;   
+   color: rgb(20, 4, 4)!important;   
 }
 
 .text-color {
-color: white!important;
+color: rgb(32, 5, 5)!important;
 }
 
 .main-text {
@@ -43,8 +43,7 @@ color: white!important;
   width: 43%;
   text-align: center;
   justify-content: center;
-  z-index: 100;
-  position: absolute;
+  
   margin: auto;
   
  }
