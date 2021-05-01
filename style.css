@@ -24,11 +24,9 @@
   font-family:'Great Vibes', sans-serif;
   color: white!important;
   letter-spacing: 2px;
-  font-size: 40px!important;
+  
   text-decoration: none;
 }
-
-
 
 .bg {
    color: rgb(20, 4, 4)!important;   
@@ -38,15 +36,13 @@
 color: rgb(32, 5, 5)!important;
 }
 
-.main-text {
-  margin-top: 10%!important;
+.main-text {  
   width: 43%;
   text-align: center;
   justify-content: center;
   
-  margin: auto;
-  
- }
+  margin: auto; 
+}
 
 .main-text h3 {
   text-transform: uppercase;
@@ -58,23 +54,23 @@ color: rgb(32, 5, 5)!important;
   justify-content: center;
   text-align: center;
   letter-spacing: 1px;
-  margin-left: 5%;
+  
 }
 
 .font { 
 font-family:'Great Vibes', sans-serif;
 letter-spacing: 2px;
-font-size: 700%;
+
 }
 
 .font2 { 
   font-family:'Great Vibes', sans-serif;
   letter-spacing: 2px;
-  font-size: 400%;
-  }
+  
+}
 
 .about-font {
-  font-size: 80%;
+ 
 }
 
 .nav-bg{
@@ -91,20 +87,17 @@ font-size: 700%;
 }
 
 .about-text {
-  margin-top: 5%!important;
   width: 90%;
   text-align: center;
   justify-content: center;
   z-index: 10;
-   margin: auto;
+  margin: auto;
    
  }
  .why-text {
-  margin-top: 3%!important;
   width: 90%;
   text-align: center;
   justify-content: center;
-  z-index: 10;
    margin: auto;
    color: white;
    
@@ -115,7 +108,7 @@ font-size: 700%;
   text-align: center;
   justify-content: center;
   margin: auto;
-  font-size: 130%;
+  
  }
 
  .about-text h1 {
@@ -152,7 +145,7 @@ font-size: 700%;
 } 
 
 div .icons ul li  {
-  margin: 4%;
+
   padding: 10px 
 
 }
@@ -189,7 +182,6 @@ div .icons ul li  {
 
 /* ---- products--css----- */
 .hold-img {
-  padding: 7px;
   width: 90%;
   margin: auto;
   height: 100%;
@@ -208,16 +200,7 @@ div .icons ul li  {
   font-family:'Great Vibes', sans-serif;
   color: rgb(77, 73, 73)!important;
   letter-spacing: 2px;
-  font-size: 30px!important;
+ 
   text-decoration: none;
   text-align: center;
-}
-
-.box {
-  min-height:50vh;
-  width: 35%!important;
-  background: #517559;
-  display:flex;
-  margin-left: -600px;
-  padding: 50px;
 }
