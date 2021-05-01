@@ -6,6 +6,17 @@
  
 }
 
+  
+body {
+  background: #F2F2F2;
+ overflow-x: hidden;
+ width: 100%;
+ -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+
 /* #fluid {
  background-image:url("img/grapes\ 22\ .jpg"); 
  background-repeat: no-repeat;
@@ -181,14 +192,13 @@ div .icons ul li  {
 }
 
 /* ---- products--css----- */
+
 .hold-img {
   width: 90%;
   margin: auto;
   height: 100%;
   align-items: center;
-  position: relative;
-  background: rgba(156, 37, 37, 0.096);
-  
+  background: rgba(156, 37, 37, 0.096); 
 }
 
 .hold-img:hover {
@@ -200,7 +210,6 @@ div .icons ul li  {
   font-family:'Great Vibes', sans-serif;
   color: rgb(77, 73, 73)!important;
   letter-spacing: 2px;
- 
   text-decoration: none;
   text-align: center;
 }
